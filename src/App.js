@@ -6,7 +6,7 @@ import SearchBar from './components/SearchBar'
 import AlbumView from './components/AlbumView'
 import ArtistView from './components/ArtistView'
 import { createResource as fetchData } from './helper'
-
+import Spinner from './components/Spinner'
 
 function App() {
   let [searchTerm, setSearchTerm] = useState('')
